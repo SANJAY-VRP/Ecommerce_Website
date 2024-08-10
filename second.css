@@ -1,0 +1,164 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  max-width: 2000px;
+
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  max-width: 2000px;
+
+  font-family: "Oswald", sans-serif;
+}
+.topbox h1 {
+  font-style: italic;
+  color: rgb(241, 241, 241);
+  margin-top: 0px;
+  -webkit-text-stroke: 3px rgb(255, 251, 251);
+}
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #ffffff;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.margin{
+  margin-top: 30px;
+}
+
+.red {
+  color: rgb(244, 4, 4);
+  display: block;
+  margin: 0px;
+}
+.h1 {
+  margin: 0px;
+}
+.navbar {
+  margin-top: -22px;
+}
+.topbox {
+  margin-bottom: -90px;
+  background: linear-gradient(red,rgb(42, 2, 2));
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+ 
+}
+.box {
+  max-width: 1540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.brand {
+  color: red;
+  font-family: impact;
+  font-size: 40px;
+}
+.item {
+  font-weight: 800;
+  font-family: impact;
+  display: inline-block;
+  text-align: right;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.center-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.product img {
+  width: 200px;
+  height: 200px;
+  filter: drop-shadow(2px 2px 5px black);
+}
+.price {
+  color: red;
+  font-family: impact;
+  font-size: 30px;
+  text-decoration: line-through;
+}
+.offerprice {
+  font-family: impact;
+  font-size: 40px;
+}
+.click {
+  text-align: center;
+}
+.parent a {
+  margin: initial;
+  color: initial;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+.product {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px;
+  margin: 10px;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+.product:hover img {
+  transition: all 2s ease-in;
+  transform: scale(1.5) skew(5deg);
+}
+.product:hover .offerprice {
+  transition: all 2s ease-in;
+  transform: scale(1.2);
+}

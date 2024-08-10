@@ -1,0 +1,141 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 2000px;
+  
+    font-family: "Oswald", sans-serif;
+  }
+ 
+  .b-radius{
+    box-shadow: 1px 1px 30px black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.114);
+    padding: 10px;
+    
+  }
+  .blue{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1px;
+  }
+  .box {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .parent{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .child{
+    text-align: center;
+  }
+  .offer{
+    border: 2px solid rgb(253, 253, 253);
+    padding: 20px;
+    background: linear-gradient(rgb(255, 4, 0),rgb(156, 10, 10));
+    
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    /* border-radius: 40px; */
+  }
+  .imgchild{
+    background-color: rgba(128, 128, 128, 0.096);
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+  }
+  .brand{
+    margin-left: 30px;
+  }
+  .child img{
+    width: 300px;
+    filter: drop-shadow(2px 2px 4px black);
+  }
+  .fifty{
+    width: 50%;
+  }
+  .width img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px;
+    width: 170px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.096);
+  }
+  .originalprice{
+    border: 2px solid rgb(253, 253, 253);
+    padding: 20px;
+    background: linear-gradient(red,rgb(107, 4, 4));
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    /* border-radius: 40px; */
+  }
+  .offerprice{
+    border: 2px solid rgb(253, 253, 253);
+    padding: 20px;
+    background: linear-gradient(rgb(0, 0, 0),rgb(7, 18, 4));
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    /* border-radius: 40px; */
+  }
+  .child p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    
+  }
+  .strike{
+    text-decoration: line-through;
+
+  }
+  .textcenter{
+    text-align: center;
+  }
+  .leftbox .child {
+    /* border: 2px solid blue; */
+    font-size: 40px;
+  }
+  .rightbox .child {
+    /* border: 2px solid blue; */
+    font-size: 20px;
+    
+  }
+  
+  .productdetails{
+    
+        border: 2px solid rgb(253, 253, 253);
+        padding: 20px;
+        background: linear-gradient(rgb(0, 0, 0),rgb(43, 44, 49));
+        font-size: 30px;
+        color: white;
+        font-weight: 900;
+        border-radius: 40px;
+        margin-bottom: 20px;
+      
+  }
+  .buy{
+    
+    margin-top: 20px;
+    border: 2px solid rgb(253, 253, 253);
+    padding: 20px;
+    background: linear-gradient(rgb(0, 255, 55),rgb(1, 32, 4));
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    border-radius: 40px;
+    margin-bottom: 20px;
+  
+}
+.none{
+  text-decoration: none;
+}
+ 
